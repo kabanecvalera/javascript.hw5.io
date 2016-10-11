@@ -1,0 +1,247 @@
+@font-face {
+ font-family: 'MidoMedium';
+ src: url('style/type/Mido-webfont.eot');
+ src: local('☺'), url('style/type/Mido-webfont.woff') format('woff'), url('style/type/Mido-webfont.ttf') format('truetype'), url('style/type/Mido-webfont.svg#webfonto3aStUbX') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	background-color: #f0f0f0;
+	color: #565656;
+	font-size: 13px;
+}
+
+.container {
+	height: 100%;
+	margin: 0 auto -145px;
+}
+
+.page-top {
+	padding-bottom: 70px;
+}
+
+.header-wrapper {
+	min-width: 960px;
+	height: 88px;
+	background: transparent url(../img/header-bg.png) repeat-x center bottom;
+}
+
+.header {
+	width: 960px;
+	height: 88px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 999;
+}
+
+.logo {
+	float: left;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+}
+
+.menu-wrapper {
+	float: right;
+	position: absolute;
+	bottom: 23px;
+	right: 0;
+}
+
+.ddsmoothmenu {
+	font-family: 'MidoMedium';
+	font-size: 17px;
+	z-index: 1000;
+	position: relative;
+	text-shadow: 0px 1px 0px #efefef;
+}
+.ddsmoothmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.ddsmoothmenu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	clear: none;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+.ddsmoothmenu ul li a {
+	display: block; /*background of menu items (default state)*/
+	text-decoration: none;
+	position: relative;
+	text-shadow: 0px 1px 0px #efefef;
+}
+
+* html .ddsmoothmenu ul li a { 
+	display: inline-block;
+}
+
+.ddsmoothmenu ul li a, .ddsmoothmenu ul li a:visited {
+	color: #565656;
+}
+
+.ddsmoothmenu ul li a.selected {
+	color: #5d8ba6;
+}
+
+.ddsmoothmenu ul li a:hover {
+	color: #5d8ba6;
+}
+
+.ddsmoothmenu ul li ul {
+	background: none;
+	font-family: 'MidoMedium';
+	position: absolute;
+	padding: 22px 0 0 0;
+	left: 0;
+	display: block; visibility: hidden;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.ddsmoothmenu ul li ul li {
+	margin-left:0;
+	padding-left: 0;
+	display: list-item;
+	float: none;
+	background-color: #e1e1e1;
+	border-right: 1px solid #cdcdcd;
+	border-left: 1px solid #cdcdcd;
+}
+
+.ddsmoothmenu ul li ul li ul {
+	top: 0;
+	padding-top: 0;
+	border-bottom: 1px solid #cdcdcd;
+	border-top: 1px solid #cdcdcd;
+}
+
+.ddsmoothmenu ul li ul li a {
+	font-size: 13px;
+	width: 140px; padding: 7px 12px;
+	margin: 0;
+	line-height: 1;
+}
+
+.ddsmoothmenu ul li ul li ul li a {
+	font-size: 13px;
+}
+
+.ddsmoothmenu ul li ul li:first-child {
+	padding-top: 5px;
+}
+
+.ddsmoothmenu ul li ul li:last-child {
+	padding-bottom: 6px;
+}
+
+.ddsmoothmenu ul li ul li ul li:first-child {
+	padding-top: 4px;
+}
+
+.ddsmoothmenu ul li ul li ul li:last-child {
+	padding-bottom: 5px;
+}
+
+* html .ddsmoothmenu {
+	height: 1%;
+}
+
+.piecemaker-container {
+	display:block;
+	height:460px;
+	overflow:hidden;
+	margin: -10px auto 40px;
+	width: 960px;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 0;
+	line-height: 20px;
+}
+
+.intro {
+	margin-top: -10px;
+	margin-bottom: 60px;
+}
+
+.intro h1 {
+	line-height: 28px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'MidoMedium';
+	color: #626262;
+}
+
+.about {
+    width: 980px;
+    height: 400px;
+}
+
+.one-fourth {
+    width: 211px;
+    float: left;
+    padding: 0 17px;
+}
+
+.about .one-fourth img {
+	box-shadow: 0px 1px 2px #656565;
+}
+
+.about .one-fourth p {
+	
+}
+
+.footer-wrapper {
+    clear: both;
+	height: 45px;
+	padding-top: 100px;
+}
+
+.footer {
+	min-width: 960px;
+	height: 45px;
+	background: transparent url(../img/footer-bg.png) repeat-x top center;
+}
+
+.footer-content {
+	width: 960px;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.copyright {
+	float: left;
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.copyright p {
+	font-size: 11px;
+	margin: 0;
+}
+
+.socials {
+    float: right;
+	position: absolute;
+	top: 2px;
+	right: 0;
+}
+
+.socials ul li {
+    list-style: none;
+	float: left;
+	margin-left: 10px;
+	background: none;
+}
